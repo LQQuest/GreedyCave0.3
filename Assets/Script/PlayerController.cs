@@ -149,6 +149,7 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == "Eat")
         {
             hp ++;
+            Destroy(other.gameObject);
         }
         
     }

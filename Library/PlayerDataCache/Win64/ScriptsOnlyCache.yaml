@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - StartGame
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -82,46 +81,48 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 576}
+      Script: {instanceID: 228}
     - Class: 114
-      Script: {instanceID: 10790}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 10824}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 9744}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 9794}
     - Class: 114
-      Script: {instanceID: 10964}
+      Script: {instanceID: 9826}
     - Class: 114
-      Script: {instanceID: 11004}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 11198}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 10270}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 10644}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 10936}
     - Class: 114
-      Script: {instanceID: 12082}
+      Script: {instanceID: 10944}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 11006}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 11136}
     - Class: 114
-      Script: {instanceID: 12498}
+      Script: {instanceID: 11358}
     - Class: 114
-      Script: {instanceID: 12510}
+      Script: {instanceID: 11370}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 12710}
+      Script: {instanceID: 11568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,23 +171,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 576}
+      Script: {instanceID: 228}
     - Class: 114
-      Script: {instanceID: 10790}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 10964}
+      Script: {instanceID: 9826}
     - Class: 114
-      Script: {instanceID: 11004}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 10270}
     - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 10580}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 10644}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 11136}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 11514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -590,7 +591,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 6ad79fae2b6d422ceb2a26090046ea64
+      Hash: d0b0122d03f7ece48f49e44ea03d7f46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -712,5 +713,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartingMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/Cemen/Desktop/Work/GameDevelop/GreegyCave/Builds/\u041D\u043E\u0432\u0430\u044F
-    \u043F\u0430\u043F\u043A\u0430/GreedyCave.exe"
+  playerPath: "C:/Users/Cemen/Desktop/Work/GameDevelop/GreegyCave/Builds/GreedyCave0.3\u0417PC/GreedyCave.exe"
