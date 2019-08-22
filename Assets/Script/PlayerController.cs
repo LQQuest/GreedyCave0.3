@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {      
 
-        if(hp == 0)
+        if(hp <= 0)
         {
             gameOver = true;
             anim.SetTrigger("Dead");
@@ -148,8 +148,12 @@ public class PlayerController : MonoBehaviour
         }
         if(other.gameObject.tag == "Eat")
         {
-            hp ++;
-            Destroy(other.gameObject);
+            if (hp<6)
+            {
+                hp ++;
+                Destroy(other.gameObject);
+            
+            }
         }
         
     }
