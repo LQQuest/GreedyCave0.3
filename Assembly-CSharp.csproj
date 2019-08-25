@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Camera.cs" />
      <Compile Include="Assets\Script\CloseSpawn.cs" />
+     <Compile Include="Assets\Script\EnemyController.cs" />
      <Compile Include="Assets\Script\FinishRoom.cs" />
      <Compile Include="Assets\Script\GameMaster.cs" />
      <Compile Include="Assets\Script\LevelGeneration.cs" />

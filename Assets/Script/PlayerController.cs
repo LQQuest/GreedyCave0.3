@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private bool facingRight = true;
 
-    private bool isGrounded;
+    public bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
@@ -28,11 +28,13 @@ public class PlayerController : MonoBehaviour
     public static bool gameOver = false;
     public static bool gameFinish = false;
     public static int nextscore = 0;
+    public static int nextgem = 0;
+    public static int nextcoin = 0;
+    public static int nextfood = 0;
 
     public float KnockbackCount = 0;
     public float KnockbackLenght;
-    // public float knockbackX;
-    // public float knockbackY;
+
 
     public bool IFrame = false;
 
@@ -54,6 +56,7 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
+            // Debug.Log("isGrounded "+ isGrounded);
             anim.SetBool("Ground", isGrounded);
 
             anim.SetFloat("vSpeed", rb.velocity.y);
@@ -100,8 +103,11 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Dead");
             rb.velocity = Vector2.right * 0f;
             nextscore = 0;
+            nextcoin = 0;
+            nextfood = 0;
+            nextgem = 0;
         }
-        // Debug.Log("Groung "+ isGrounded);
+        
         if (gameFinish == false && gameOver == false && SpawnRooms.stopSpawnRoom == true)
         {
             LoadScreen.SetActive(false);
@@ -129,18 +135,23 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Coin")
         {
-            Destroy(other.gameObject);
             gm.score += 20;
+            gm.coins ++;
+            Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Gem")
         {
             gm.score += 100;
+            gm.gems ++;
             Destroy(other.gameObject);
         }
         if(other.gameObject.tag == "door")
         {
             nextscore = gm.score;
-            Debug.Log("Score "+ nextscore);
+            nextcoin = gm.coins;
+            nextfood = gm.heals;
+            nextgem = gm.gems;
+            
             rb.velocity = Vector2.right * 0f;
             anim.SetTrigger("Win");
             FinishUI.SetActive(true);
@@ -148,13 +159,22 @@ public class PlayerController : MonoBehaviour
         }
         if(other.gameObject.tag == "Eat")
         {
-            if (hp<6)
+            if (hp < 6 )
             {
-                hp ++;
-                Destroy(other.gameObject);
-            
+               hp ++; 
+            }else{
+                gm.heals ++;
             }
+            Destroy(other.gameObject);
+            
         }
+        if(other.gameObject.tag == "head")
+        {
+            gm.score += 100;
+            
+            Destroy(other.transform.parent.gameObject);
+        }
+        
         
     }
     private void OnCollisionEnter2D(Collision2D other) {
