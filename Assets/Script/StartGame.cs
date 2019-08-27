@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class StartGame : MonoBehaviour
 {
     public Text highScore;
+    public GameObject tutorMenu;
 
     void Start()
     {
         highScore.text = ("High Score: " + PlayerPrefs.GetInt("HighScore",0).ToString());
+        tutorMenu.SetActive(false);
     }
     public void StartGameFirst()
     {
@@ -22,6 +24,14 @@ public class StartGame : MonoBehaviour
         PlayerController.hp = 6;
     }
 
+    public void TutorMenu()
+    {
+        tutorMenu.SetActive(true);
+    }
+    public void TutorMenuQuit()
+    {
+        tutorMenu.SetActive(false);
+    }
     public void Quit()
     {
         Application.Quit();
