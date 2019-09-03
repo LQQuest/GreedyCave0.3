@@ -27,10 +27,11 @@ public class PlayerController : MonoBehaviour
     public static int hp = 6;
     public static bool gameOver = false;
     public static bool gameFinish = false;
-    public static int nextscore = 0;
-    public static int nextgem = 0;
-    public static int nextcoin = 0;
-    public static int nextfood = 0;
+    public static int nextScore = 0;
+    public static int nextGem = 0;
+    public static int nextCoin = 0;
+    public static int nextFood = 0;
+    public static int nextAncient = 0;
 
     public float KnockbackCount = 0;
     public float KnockbackLenght;
@@ -102,10 +103,11 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             anim.SetTrigger("Dead");
             rb.velocity = Vector2.right * 0f;
-            nextscore = 0;
-            nextcoin = 0;
-            nextfood = 0;
-            nextgem = 0;
+            nextScore = 0;
+            nextCoin = 0;
+            nextFood = 0;
+            nextGem = 0;
+            nextAncient = 0;
         }
         
         if (gameFinish == false && gameOver == false && SpawnRooms.stopSpawnRoom == true)
@@ -145,12 +147,18 @@ public class PlayerController : MonoBehaviour
             gm.gems ++;
             Destroy(other.gameObject);
         }
+        if (other.gameObject.tag == "Ancient")
+        {
+            gm.score += 400;
+            gm.ancients ++;
+            Destroy(other.gameObject);
+        }
         if(other.gameObject.tag == "door")
         {
-            nextscore = gm.score;
-            nextcoin = gm.coins;
-            nextfood = gm.heals;
-            nextgem = gm.gems;
+            nextScore = gm.score;
+            nextCoin = gm.coins;
+            nextFood = gm.food;
+            nextGem = gm.gems;
             
             rb.velocity = Vector2.right * 0f;
             anim.SetTrigger("Win");
@@ -163,7 +171,7 @@ public class PlayerController : MonoBehaviour
             {
                hp ++; 
             }else{
-                gm.heals ++;
+                gm.food ++;
             }
             Destroy(other.gameObject);
             

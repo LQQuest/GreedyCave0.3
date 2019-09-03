@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour
 
     public static bool paused = false;
     public static bool restartTrigger = false;
+    
 
     void Start()
     {
@@ -54,12 +55,19 @@ public class PauseMenu : MonoBehaviour
     }
     public void Next()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (GameMaster.day % 2 == 0)
+        {
+            SceneManager.LoadScene(2);
+        }else{
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
         PlayerController.gameOver = false;
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
         paused = false;
         restartTrigger = true;
+        GameMaster.day ++;
         
     }
     public void Restart()
@@ -72,6 +80,7 @@ public class PauseMenu : MonoBehaviour
         PlayerController.hp = 6;
         paused = false;
         restartTrigger = true;
+        
     }
     public void MainMenu()
     {
@@ -90,6 +99,7 @@ public class PauseMenu : MonoBehaviour
         {
             yield return new WaitForSeconds(2f);
             GameOverUI.SetActive(true);
+        
         }
         
     }

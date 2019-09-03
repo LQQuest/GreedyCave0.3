@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroungCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38133245322295001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.061, z: -0.38476562}
+  m_LocalPosition: {x: 0, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9220421376373054174}
@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2940115741932826845}
   - component: {fileID: 1095948332}
   - component: {fileID: 1095948327}
+  - component: {fileID: 3999389034688987564}
   m_Layer: 11
   m_Name: player
   m_TagString: Untagged
@@ -80,7 +81,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -104,10 +104,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 19
   m_Sprite: {fileID: 5931553507904688600, guid: 286a86eca8b19524caec6f0d52944d3e,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -187,11 +187,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.2
   jumpForce: 1.5
+  isGrounded: 0
   groundCheck: {fileID: 2176140904860012348}
-  checkRadius: 0.01
+  checkRadius: 0.02
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1
   extraJumpsValue: 1
+  KnockbackCount: 0
+  KnockbackLenght: 1
+  IFrame: 0
   LoadScreen: {fileID: 0}
   FinishUI: {fileID: 0}
+--- !u!111 &3999389034688987564
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356254769907365690}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 85724276e3b874346bf613d78f7a9243, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 85724276e3b874346bf613d78f7a9243, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

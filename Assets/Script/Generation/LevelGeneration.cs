@@ -30,7 +30,6 @@ public class LevelGeneration : MonoBehaviour
         Instantiate(rooms[0], transform.position, Quaternion.identity);
 
         direction = Random.Range(1, 6);
-        Debug.Log("Start Room "+ direction);
     }
 
     private void Update()

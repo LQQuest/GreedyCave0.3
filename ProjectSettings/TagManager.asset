@@ -12,6 +12,8 @@ TagManager:
   - destroyer
   - Eat
   - head
+  - altar
+  - DialogManager
   layers:
   - Default
   - TransparentFX
