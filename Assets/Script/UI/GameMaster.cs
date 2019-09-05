@@ -1,21 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameMaster : MonoBehaviour
 {
     public int score;
     public int gems;
     public int coins;
-    public int food;
     public int ancients;
-    public int humans;
-    public Text pointsText;
-    public Text gemsText;
-    public Text coinsText;
-    public Text foodText;
-    public Text dayText;
-    public Text ancientText;
-    public Text humanText;
+    public static int humans;
+    public int food;
+    
+    public TextMeshProUGUI pointsText;
+    public TextMeshProUGUI gemsText;
+    public TextMeshProUGUI coinsText;
+    public TextMeshProUGUI ancientsText;
+    public TextMeshProUGUI humanText;
+    public TextMeshProUGUI dayText;
+    public TextMeshProUGUI foodText;
     public static int day = 1;
 
     void Start()
@@ -34,10 +36,10 @@ public class GameMaster : MonoBehaviour
         pointsText.text = ("Score: " + score);
         gemsText.text = ("X " + gems);
         coinsText.text = ("X " + coins);
-        foodText.text = ("X " + food);
-        dayText.text = ("Day " + day);
-        ancientText.text = ("X " + ancients);
+        ancientsText.text = ("X " + ancients);
         humanText.text = ("X " + humans);
+        dayText.text = ("Day " + day);
+        foodText.text = ("X " + food);
 
         if (Input.GetKeyDown(KeyCode.C) && PlayerController.hp < 6 && food > 0)
         {
@@ -49,6 +51,10 @@ public class GameMaster : MonoBehaviour
         if (score > PlayerPrefs.GetInt("HighScore",0))
         {
             PlayerPrefs.SetInt("HighScore", score);
+        }
+        if (day > PlayerPrefs.GetInt("DayScore",0))
+        {
+            PlayerPrefs.SetInt("DayScore", day);
         }
     }
 }

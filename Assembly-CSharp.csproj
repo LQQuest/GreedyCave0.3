@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\SpecialRoom\DialogManager.cs" />
      <Compile Include="Assets\Script\SpecialRoom\GiftPanel.cs" />
+     <Compile Include="Assets\Script\SpecialRoom\SpecialGameMaster.cs" />
      <Compile Include="Assets\Script\SpecialRoom\SpecialRoomePlayerController.cs" />
      <Compile Include="Assets\Script\UI\Camera.cs" />
      <Compile Include="Assets\Script\UI\GameMaster.cs" />

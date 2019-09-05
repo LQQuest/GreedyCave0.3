@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void Next()
     {
-        if (GameMaster.day % 2 == 0)
+        if ((GameMaster.day + 1) % 2 == 0)
         {
             SceneManager.LoadScene(2);
         }else{
@@ -72,14 +72,17 @@ public class PauseMenu : MonoBehaviour
     }
     public void Restart()
     {
-        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (PlayerController.gameOver == true)
+        {
+            GameMaster.humans --;
+        }
         PlayerController.gameOver = false;
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
         PlayerController.hp = 6;
         paused = false;
         restartTrigger = true;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
     public void MainMenu()

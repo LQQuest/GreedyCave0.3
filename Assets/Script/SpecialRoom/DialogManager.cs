@@ -8,13 +8,15 @@ public class DialogManager : MonoBehaviour
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
+    public static int GodName;
     public float  typingSpeed;
     public GameObject countinueButton;
     private int randGod;
-    
+    public GameObject GiftPanel;
 
     void Start(){
         index = Random.Range(0,3);
+        GodName = index;
         StartCoroutine(Type());
 
         
@@ -44,6 +46,8 @@ public class DialogManager : MonoBehaviour
         {
             textDisplay.text = "";
             countinueButton.SetActive(false);
+            GiftPanel.SetActive(true);
+            
         }
     }
 }

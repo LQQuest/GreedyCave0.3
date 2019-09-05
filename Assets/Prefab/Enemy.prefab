@@ -44,7 +44,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000636816, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12, y: 0.02}
+  m_Size: {x: 0.07797289, y: 0.02}
   m_EdgeRadius: 0
 --- !u!1 &2080689786296045430
 GameObject:
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 6225571799209787255}
   - component: {fileID: 6142089548221952510}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Body
   m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,7 +146,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2755203907334234311}
   - component: {fileID: 2755203907334234312}
-  - component: {fileID: 2755203907334234313}
   - component: {fileID: 2755203907334234314}
   - component: {fileID: 2755203907334234310}
   - component: {fileID: 565473414}
@@ -224,32 +223,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2755203907334234313
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2755203907334234315}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: ab84f6644941a44478d3e529f391f955, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.008907527}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.13}
-    newSize: {x: 0.12, y: 0.13}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.12, y: 0.11218494}
-  m_EdgeRadius: 0
 --- !u!114 &2755203907334234314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,6 +240,7 @@ MonoBehaviour:
   whatIsCollision:
     serializedVersion: 2
     m_Bits: 1
+  deathTrigger: 0
   deathAnim: {fileID: 4415148526160640903, guid: dfc0de5e0d233094990b13d22be1a566,
     type: 3}
   collisionDetection: {fileID: 2755203907485526634}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4446401863954081701}
   - component: {fileID: 5631862766256441577}
   - component: {fileID: 5588548751132276321}
+  - component: {fileID: -5991685802735451530}
   m_Layer: 0
   m_Name: Platformer_light_28
   m_TagString: Coin
@@ -46,7 +47,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -109,3 +109,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0596825, y: 0.06082824}
   m_EdgeRadius: 0
+--- !u!111 &-5991685802735451530
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595999091886314006}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

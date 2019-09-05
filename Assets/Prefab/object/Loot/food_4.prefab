@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5340401669917230545}
   - component: {fileID: 1875191018269466996}
   - component: {fileID: 7826665264983951768}
+  - component: {fileID: 7565772502722810914}
   m_Layer: 0
   m_Name: food_4
   m_TagString: Eat
@@ -108,3 +109,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.12}
   m_EdgeRadius: 0
+--- !u!111 &7565772502722810914
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676469996555915056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

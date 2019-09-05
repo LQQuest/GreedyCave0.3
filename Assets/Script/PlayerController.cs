@@ -23,8 +23,9 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     private GameMaster gm;
+    private EnemyController ec;
 
-    public static int hp = 6;
+    public static int hp = 60;
     public static bool gameOver = false;
     public static bool gameFinish = false;
     public static int nextScore = 0;
@@ -103,11 +104,12 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             anim.SetTrigger("Dead");
             rb.velocity = Vector2.right * 0f;
-            nextScore = 0;
-            nextCoin = 0;
-            nextFood = 0;
-            nextGem = 0;
-            nextAncient = 0;
+            nextScore = gm.score/2;
+            nextCoin = gm.coins/2;
+            nextFood = gm.food/2;
+            nextGem = gm.gems/2;
+            nextAncient = gm.ancients/2;
+            
         }
         
         if (gameFinish == false && gameOver == false && SpawnRooms.stopSpawnRoom == true)
@@ -139,19 +141,25 @@ public class PlayerController : MonoBehaviour
         {
             gm.score += 20;
             gm.coins ++;
-            Destroy(other.gameObject);
+            other.GetComponent<Animation>().Play();
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(other.gameObject, 1f);
         }
         if (other.gameObject.tag == "Gem")
         {
             gm.score += 100;
             gm.gems ++;
-            Destroy(other.gameObject);
+            other.GetComponent<Animation>().Play();
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(other.gameObject,1f);
         }
         if (other.gameObject.tag == "Ancient")
         {
             gm.score += 400;
             gm.ancients ++;
-            Destroy(other.gameObject);
+            other.GetComponent<Animation>().Play();
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(other.gameObject,1f);
         }
         if(other.gameObject.tag == "door")
         {
@@ -159,6 +167,7 @@ public class PlayerController : MonoBehaviour
             nextCoin = gm.coins;
             nextFood = gm.food;
             nextGem = gm.gems;
+            nextAncient = gm.ancients;
             
             rb.velocity = Vector2.right * 0f;
             anim.SetTrigger("Win");
@@ -173,14 +182,19 @@ public class PlayerController : MonoBehaviour
             }else{
                 gm.food ++;
             }
-            Destroy(other.gameObject);
+            other.GetComponent<Animation>().Play();
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(other.gameObject,1f);
             
         }
         if(other.gameObject.tag == "head")
         {
             gm.score += 100;
+            ec = other.transform.parent.gameObject.GetComponent<EnemyController>();
+            ec.deathTrigger = true;
             
-            Destroy(other.transform.parent.gameObject);
+            // other.transform.parent.gameObject.GetComponent<Animation>().Play();
+            // Destroy(other.transform.parent.gameObject);
         }
         
         

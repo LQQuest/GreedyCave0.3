@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8210822209103664327}
   - component: {fileID: 6895498761511670007}
   - component: {fileID: 1224994450315548221}
+  - component: {fileID: -7169489348478352457}
   m_Layer: 0
   m_Name: Platformer_light_29
   m_TagString: Gem
@@ -46,7 +47,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -109,3 +109,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.08067916, y: 0.06245692}
   m_EdgeRadius: 0
+--- !u!111 &-7169489348478352457
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4127336474711046048}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e090602b87d7e3e4298577e0575db0ae, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

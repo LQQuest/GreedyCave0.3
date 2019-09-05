@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
     public float speed;
     public float distanse;
     public LayerMask whatIsCollision;
-    public static bool deathTriiger = false;
+    public bool deathTrigger = false;
     public GameObject deathAnim;
 
     private bool movingRight = true;
@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
     public Transform collisionDetection;
     void Update()
     {
-        if (deathTriiger == false)
+        if (deathTrigger == false)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);  
             RaycastHit2D collisionInfo = Physics2D.Raycast(collisionDetection.position, Vector2.right, distanse, whatIsCollision);
@@ -38,11 +38,17 @@ public class EnemyController : MonoBehaviour
         
         }else
         {
-            Destroy(gameObject);
+            gameObject.transform.GetChild(2).gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.transform.GetChild(1).gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+            
+            gameObject.GetComponent<Animator>().SetTrigger("EnemyDead");
+            
         }
          
     }
-    private void OnDestroy() {
-        Instantiate(deathAnim,new Vector2(transform.position.x, transform.position.y - 0.02f), Quaternion.identity);
-    }
+    // private void OnDestroy() {
+    //     Instantiate(deathAnim, new Vector2(transform.position.x, transform.position.y - 0.02f), Quaternion.identity);
+    //     Destroy(deathAnim, 10f);
+    // }
 }
