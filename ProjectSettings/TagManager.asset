@@ -14,6 +14,7 @@ TagManager:
   - head
   - altar
   - DialogManager
+  - ancient
   layers:
   - Default
   - TransparentFX

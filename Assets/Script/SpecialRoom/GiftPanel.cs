@@ -72,7 +72,7 @@ public class GiftPanel : MonoBehaviour
 
         score_need += coins*20;
         score_need += gems*100;
-        score_need += ancients*400;
+        score_need += ancients*200;
 
         if (score_need >= (countGods[DialogManager.GodName]* 200 - 20) && score_need <= (countGods[DialogManager.GodName]* 200 + 20))
         {

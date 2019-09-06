@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     private GameMaster gm;
     private EnemyController ec;
 
-    public static int hp = 60;
+    public static int hp = 6;
     public static bool gameOver = false;
     public static bool gameFinish = false;
     public static int nextScore = 0;
@@ -153,9 +153,9 @@ public class PlayerController : MonoBehaviour
             other.GetComponent<BoxCollider2D>().enabled = false;
             Destroy(other.gameObject,1f);
         }
-        if (other.gameObject.tag == "Ancient")
+        if (other.gameObject.tag == "ancient")
         {
-            gm.score += 400;
+            gm.score += 200;
             gm.ancients ++;
             other.GetComponent<Animation>().Play();
             other.GetComponent<BoxCollider2D>().enabled = false;
