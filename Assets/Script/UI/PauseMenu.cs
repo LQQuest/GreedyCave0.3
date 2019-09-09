@@ -68,6 +68,7 @@ public class PauseMenu : MonoBehaviour
         paused = false;
         restartTrigger = true;
         GameMaster.day ++;
+        gm.SavePlayer();
         
     }
     public void Restart()
@@ -79,19 +80,23 @@ public class PauseMenu : MonoBehaviour
         PlayerController.gameOver = false;
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
-        PlayerController.hp = 6;
+        GameMaster.hp = 6;
         paused = false;
         restartTrigger = true;
+        gm.SavePlayer();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
     public void MainMenu()
     {
+        gm.SavePlayer();
         SceneManager.LoadScene(0);
         restartTrigger = true;
+        
     }
     public void Quit()
     {
+        gm.SavePlayer();
         Application.Quit();
     }
 
@@ -100,6 +105,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (PlayerController.gameOver)
         {
+            gm.SavePlayer();
             yield return new WaitForSeconds(2f);
             GameOverUI.SetActive(true);
         

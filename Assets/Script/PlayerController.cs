@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     private GameMaster gm;
     private EnemyController ec;
 
-    public static int hp = 6;
+    
     public static bool gameOver = false;
     public static bool gameFinish = false;
     public static int nextScore = 0;
@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();    
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+        GameMaster.scene = 1;
 
     }
 
@@ -99,7 +100,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {      
 
-        if(hp <= 0)
+        if(GameMaster.hp <= 0)
         {
             gameOver = true;
             anim.SetTrigger("Dead");
@@ -173,12 +174,14 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Win");
             FinishUI.SetActive(true);
             gameFinish = true;
+            gm.SavePlayer();
+            
         }
         if(other.gameObject.tag == "Eat")
         {
-            if (hp < 6 )
+            if (GameMaster.hp < 6 )
             {
-               hp ++; 
+               GameMaster.hp ++; 
             }else{
                 gm.food ++;
             }
@@ -203,9 +206,10 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == "Spike" && IFrame == false)
         {   
             
-            hp--;
+            GameMaster.hp--;
             KnockbackCount = KnockbackLenght;
             gameObject.GetComponent<Animation>().Play("DamageBurst");
+            gm.SavePlayer();
         }
         
     }

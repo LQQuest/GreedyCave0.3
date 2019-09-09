@@ -14,7 +14,7 @@ public class PlayerHeatr : MonoBehaviour
 
     void Update()
     {
-        health = PlayerController.hp;
+        health = GameMaster.hp;
 
         for (int i = 0; i < hearts.Length; i++)
         {

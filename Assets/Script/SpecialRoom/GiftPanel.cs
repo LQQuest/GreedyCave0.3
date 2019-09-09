@@ -127,8 +127,8 @@ public class GiftPanel : MonoBehaviour
     }
     public void MinusCoinButton()
     {
-        if(coins>= 5)
-        coins -=5;
+        if(coins>= 2)
+        coins -=2;
     }
     public void PlusGemButton()
     {

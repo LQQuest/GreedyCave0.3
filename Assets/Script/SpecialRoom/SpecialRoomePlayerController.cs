@@ -26,11 +26,11 @@ public class SpecialRoomePlayerController : MonoBehaviour
 
     void Start()
     {
-        // dm = GameObject.FindGameObjectWithTag("DialogManager").GetComponent<DialogManager>();
         extraJumps = extraJumpsValue;
         anim = GetComponent<Animator>();    
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+        GameMaster.scene = 2;
 
     }
 

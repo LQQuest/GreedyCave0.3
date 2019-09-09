@@ -859,4 +859,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartingMenu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/DayX.unity
-  playerPath: C:/Users/Cemen/Desktop/Work/GameDevelop/GreegyCave/Builds/GreedyCave0.4PC/GreedyCave.exe
+  playerPath: "C:/Users/\u0421\u0435\u043C\u0435\u043D/Desktop/Work/gameDev/GreedyCave0.4PC/GreedyCave.exe"

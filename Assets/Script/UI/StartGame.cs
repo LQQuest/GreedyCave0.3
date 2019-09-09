@@ -11,10 +11,13 @@ public class StartGame : MonoBehaviour
     public TextMeshProUGUI dayScore;
     public GameObject tutorMenu;
 
+    private GameMaster gm;
+
     void Start()
     {
         highScore.text = ("High Score: " + PlayerPrefs.GetInt("HighScore",0).ToString());
         dayScore.text = ("Maximum days: " + PlayerPrefs.GetInt("DayScore",0).ToString());
+        gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
 
         tutorMenu.SetActive(false);
     }
@@ -25,8 +28,17 @@ public class StartGame : MonoBehaviour
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
         PauseMenu.paused = false;
-        PlayerController.hp = 6;
+        GameMaster.hp = 6;
         GameMaster.humans = 10;
+    }
+    public void LoadGame()
+    {
+        SceneManager.LoadScene(1);
+        PlayerController.gameOver = false;
+        PlayerController.gameFinish = false;
+        SpawnRooms.stopSpawnRoom = false;
+        PauseMenu.paused = false;
+        gm.LoadPlayer();
     }
 
     public void TutorMenu()

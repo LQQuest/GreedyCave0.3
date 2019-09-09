@@ -3941,7 +3941,7 @@ PrefabInstance:
     - target: {fileID: 9220421376373054174, guid: d93f2fecd1890db45bb63659d3e600e0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.88
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 9220421376373054174, guid: d93f2fecd1890db45bb63659d3e600e0,
         type: 3}
@@ -4156,7 +4156,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 827, y: -64}
-  m_SizeDelta: {x: 58, y: 58}
+  m_SizeDelta: {x: 60, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091394309
 MonoBehaviour:
@@ -4178,7 +4178,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 980155311395259703, guid: c2cbdfeb02abf614dba9368bedeb914a, type: 3}
+  m_Sprite: {fileID: 3158488010477605343, guid: c2cbdfeb02abf614dba9368bedeb914a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

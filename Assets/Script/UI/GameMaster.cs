@@ -19,6 +19,8 @@ public class GameMaster : MonoBehaviour
     public TextMeshProUGUI dayText;
     public TextMeshProUGUI foodText;
     public static int day = 1;
+    public static int hp = 6;
+    public static int scene;
 
     void Start()
     {
@@ -41,10 +43,10 @@ public class GameMaster : MonoBehaviour
         dayText.text = ("Day " + day);
         foodText.text = ("X " + food);
 
-        if (Input.GetKeyDown(KeyCode.C) && PlayerController.hp < 6 && food > 0)
+        if (Input.GetKeyDown(KeyCode.C) && hp < 6 && food > 0)
         {
             food--;
-            PlayerController.hp++;
+            hp++;
         }
 
         
@@ -56,5 +58,25 @@ public class GameMaster : MonoBehaviour
         {
             PlayerPrefs.SetInt("DayScore", day);
         }
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+    }
+
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+
+        score = data.score;
+        gems = data.gems;
+        coins = data.coins;
+        ancients = data.ancients;
+        food = data.food;
+        humans = data.humans;
+        hp = data.hp;
+        day = data.day;
+        scene = data.scene;
     }
 }
