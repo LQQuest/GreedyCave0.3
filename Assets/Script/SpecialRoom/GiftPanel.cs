@@ -34,6 +34,7 @@ public class GiftPanel : MonoBehaviour
         countGods[0] = 0;
         countGods[1] = 0;
         countGods[2] = 0;
+        score_need = 0;
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
 
@@ -48,6 +49,7 @@ public class GiftPanel : MonoBehaviour
     public void Next(){
         if (GameMaster.humans>0)
         {
+            
             SceneManager.LoadScene(1);
             PlayerController.gameOver = false;
             PlayerController.gameFinish = false;
@@ -55,6 +57,7 @@ public class GiftPanel : MonoBehaviour
             PauseMenu.paused = false;
             PauseMenu.restartTrigger = true;
             GameMaster.day ++;
+            
         }else{
             GameOverPanel.SetActive(true);
         }
@@ -67,6 +70,9 @@ public class GiftPanel : MonoBehaviour
         gm.gems -= gems;
         gm.ancients -= ancients;
 
+        PlayerController.nextCoin -=coins;
+        PlayerController.nextGem -= gems;
+        PlayerController.nextAncient -= ancients;
 
         countGods[DialogManager.GodName]++;
 
@@ -94,6 +100,7 @@ public class GiftPanel : MonoBehaviour
 
 
         MassagePanel.SetActive(true);
+        gm.SavePlayer();
 
         
         if (GodsMassage == 1)

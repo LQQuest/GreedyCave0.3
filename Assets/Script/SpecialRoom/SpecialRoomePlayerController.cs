@@ -23,6 +23,7 @@ public class SpecialRoomePlayerController : MonoBehaviour
     private GameMaster gm;
     private Rigidbody2D rb;
     public GameObject dm;
+    public GameObject loadScreen;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class SpecialRoomePlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         GameMaster.scene = 2;
+        Destroy(loadScreen,2f);
 
     }
 

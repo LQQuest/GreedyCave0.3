@@ -83,20 +83,20 @@ public class PauseMenu : MonoBehaviour
         GameMaster.hp = 6;
         paused = false;
         restartTrigger = true;
-        gm.SavePlayer();
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
     public void MainMenu()
     {
-        gm.SavePlayer();
+        
         SceneManager.LoadScene(0);
         restartTrigger = true;
         
     }
     public void Quit()
     {
-        gm.SavePlayer();
+        
         Application.Quit();
     }
 

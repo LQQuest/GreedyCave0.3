@@ -100,19 +100,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {      
 
-        if(GameMaster.hp <= 0)
-        {
-            gameOver = true;
-            anim.SetTrigger("Dead");
-            rb.velocity = Vector2.right * 0f;
-            nextScore = gm.score/2;
-            nextCoin = gm.coins/2;
-            nextFood = gm.food/2;
-            nextGem = gm.gems/2;
-            nextAncient = gm.ancients/2;
-            
-        }
-        
+               
         if (gameFinish == false && gameOver == false && SpawnRooms.stopSpawnRoom == true)
         {
             LoadScreen.SetActive(false);
@@ -126,6 +114,19 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = Vector2.up * jumpForce;
                 anim.SetBool("Ground", false);
             }  
+        }
+
+        if(GameMaster.hp <= 0)
+        {
+            gameOver = true;
+            anim.SetTrigger("Dead");
+            rb.velocity = Vector2.right * 0f;
+            nextScore = gm.score/2;
+            nextCoin = gm.coins/2;
+            nextFood = gm.food/2;
+            nextGem = gm.gems/2;
+            nextAncient = gm.ancients/2;
+            
         }
         
     }
@@ -209,7 +210,7 @@ public class PlayerController : MonoBehaviour
             GameMaster.hp--;
             KnockbackCount = KnockbackLenght;
             gameObject.GetComponent<Animation>().Play("DamageBurst");
-            gm.SavePlayer();
+            
         }
         
     }
