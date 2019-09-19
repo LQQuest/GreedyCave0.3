@@ -1,0 +1,1111 @@
+fileFormatVersion: 2
+guid: b7166b32b95b3de47a21f557e18eca69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6373970009837560869
+    second: broun_bloks_0
+  - first:
+      213: -8808860992578228926
+    second: broun_bloks_1
+  - first:
+      213: -4895250972371977243
+    second: broun_bloks_2
+  - first:
+      213: -6467030121560475120
+    second: broun_bloks_3
+  - first:
+      213: -8957312818944121708
+    second: broun_bloks_4
+  - first:
+      213: 6469771663122059906
+    second: broun_bloks_5
+  - first:
+      213: 2243935986450617976
+    second: broun_bloks_6
+  - first:
+      213: -1827683265712899725
+    second: broun_bloks_7
+  - first:
+      213: 454235901996189457
+    second: broun_bloks_8
+  - first:
+      213: 5138600703059176781
+    second: broun_bloks_9
+  - first:
+      213: -7845328093066480649
+    second: broun_bloks_10
+  - first:
+      213: 2838687100907676015
+    second: broun_bloks_11
+  - first:
+      213: 7212092746750994333
+    second: broun_bloks_12
+  - first:
+      213: -775751327736349755
+    second: broun_bloks_13
+  - first:
+      213: -1230890180052737293
+    second: broun_bloks_14
+  - first:
+      213: 9052569836366150561
+    second: broun_bloks_20
+  - first:
+      213: 6956584009010494354
+    second: broun_bloks_21
+  - first:
+      213: 3414297329084551246
+    second: broun_bloks_22
+  - first:
+      213: 8299972506605502091
+    second: broun_bloks_23
+  - first:
+      213: -5278138154811685147
+    second: broun_bloks_24
+  - first:
+      213: -8038123914884147171
+    second: broun_bloks_28
+  - first:
+      213: -6552594920719613172
+    second: broun_bloks_30
+  - first:
+      213: 1023131987064925070
+    second: broun_bloks_37
+  - first:
+      213: -3571694528115168230
+    second: broun_bloks_15
+  - first:
+      213: -553733513215486054
+    second: broun_bloks_16
+  - first:
+      213: -4956135100501642383
+    second: broun_bloks_17
+  - first:
+      213: 5530381615178980746
+    second: broun_bloks_18
+  - first:
+      213: -5774956685876272488
+    second: broun_bloks_19
+  - first:
+      213: -21401927235078094
+    second: broun_bloks_25
+  - first:
+      213: -6923364330230433469
+    second: broun_bloks_26
+  - first:
+      213: 2474297809373731845
+    second: broun_bloks_27
+  - first:
+      213: -4478829492956262735
+    second: broun_bloks_29
+  - first:
+      213: -8766059738514409656
+    second: broun_bloks_31
+  - first:
+      213: -5248809951305122161
+    second: broun_bloks_32
+  - first:
+      213: 8616211412707341614
+    second: broun_bloks_33
+  - first:
+      213: -978627195899305897
+    second: broun_bloks_34
+  - first:
+      213: -2479517401480909807
+    second: broun_bloks_35
+  - first:
+      213: -1528861419953046786
+    second: broun_bloks_36
+  - first:
+      213: -7165966532355033464
+    second: broun_bloks_38
+  - first:
+      213: 229502848532168515
+    second: broun_bloks_39
+  - first:
+      213: -129383100196879351
+    second: broun_bloks_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: broun_bloks_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3baaaf2bf34cd94ca245ac93d8c3c17
+      internalID: 6373970009837560869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 51
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af11cdd9b2f05aa48923ee028e9c0e00
+      internalID: -8808860992578228926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5a6eff76a4bcf4283be857e47e6928
+      internalID: -4895250972371977243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dce9b853f9cce4e97ccabf138b8d2a
+      internalID: -6467030121560475120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b243f5cedeb9324b8c0d1f221dfad71
+      internalID: -8957312818944121708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026e5ba13b48e96459924b9e3c6632b2
+      internalID: 6469771663122059906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb7529e62e60849be9be63e26a15f1
+      internalID: 2243935986450617976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89dbe8de4b1aa42a73872adaa1de74
+      internalID: -1827683265712899725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac567fa89761444086224ecf0da6641
+      internalID: 454235901996189457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c539862b15aeea4486ba10dbe3ca563
+      internalID: 5138600703059176781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1320fae1723d1e4b9456c89c4e0f5fb
+      internalID: -7845328093066480649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c573f4ff5718c44a7352c9bd5b25b7
+      internalID: 2838687100907676015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f241676242ff90c43bdd4d360891420c
+      internalID: 7212092746750994333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5266e0c631b58d4c9abcbd31e239110
+      internalID: -775751327736349755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e85c89d9e1f6f74da39d56c9681facb
+      internalID: -1230890180052737293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d8d4a2864fb847956d9748b81c2bb
+      internalID: 9052569836366150561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7d5fb1a323c2b469859f22860c4c5b
+      internalID: 6956584009010494354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae40b78c9bfe89e40af7dbca1e655057
+      internalID: 3414297329084551246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24194ca9e78a6f24ab67842803e3e020
+      internalID: 8299972506605502091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85adc1a3fb92d8c4581090983863d653
+      internalID: -5278138154811685147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce367af7a8c29c24c83cee8803d8a78a
+      internalID: -8038123914884147171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e33c78a3e1c0ae4f81ea2c03c3e3a0e
+      internalID: -6552594920719613172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a562cb6ee3faa479a331a65cb5cdd8
+      internalID: 1023131987064925070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18444bffc85df724a92a011b9356d2fb
+      internalID: -3571694528115168230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384e90f868ee3f4eb0f975e4830b80b
+      internalID: -553733513215486054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a9960840269e418b1df9915371d84
+      internalID: -4956135100501642383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370f8efc46d6333448f7a897ec448dbf
+      internalID: 5530381615178980746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 38
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d0d845c09f1544980fa358a02b8ae
+      internalID: -5774956685876272488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 38
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c48d5afe3b386499dc24e720190d89
+      internalID: -21401927235078094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2fe87aa4814b245aa17434f4371fa8
+      internalID: -6923364330230433469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba28e17bbe71ff4ab4e4ec9631d4419
+      internalID: 2474297809373731845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bcb9fc976cb2d4b83d2b0a46453e5e
+      internalID: -4478829492956262735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eeb2c581eb4424ca697b9cf1a47a69
+      internalID: -8766059738514409656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6306fed5bf8b3244d8d0638d534e82a9
+      internalID: -5248809951305122161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04811cfd6cb051c49b94df0bca08a0d2
+      internalID: 8616211412707341614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adffa2292551fc549adca7ffa541c7c0
+      internalID: -978627195899305897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded287c88a2ce447b8454c2e147a8f3
+      internalID: -2479517401480909807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3f2451482e37b4f8b089a7a875747e
+      internalID: -1528861419953046786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f235377dc19518d48985b36f747ac00e
+      internalID: -7165966532355033464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe4c064de152d7449daac933d518de4
+      internalID: 229502848532168515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broun_bloks_40
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29ac21d13bf0024caab96ff7e2a813c
+      internalID: -129383100196879351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

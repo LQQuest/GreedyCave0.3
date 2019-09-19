@@ -1,12 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AncientHouse
     - Camera
+    - Castel
     - CloseSpawn
+    - CoinHouse
     - DialogManager
     - EnemyController
     - FinishRoom
     - GameMaster
+    - GemHouse
     - GiftPanel
     - LevelGeneration
     - PauseMenu
@@ -18,6 +22,8 @@ ScriptsOnlyBuild:
     - SpawnRooms
     - SpecialRoomePlayerController
     - StartGame
+    - Tavern
+    - Village
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -37,8 +43,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -50,6 +58,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/DayX.unity:
@@ -90,29 +99,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9850}
+      Script: {instanceID: 9852}
     - Class: 114
-      Script: {instanceID: 9890}
+      Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10268}
     - Class: 114
-      Script: {instanceID: 10296}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10306}
+      Script: {instanceID: 10308}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10676}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 10906}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 11044}
     - Class: 114
-      Script: {instanceID: 11104}
+      Script: {instanceID: 11110}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,43 +194,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9818}
+      Script: {instanceID: 9820}
     - Class: 114
-      Script: {instanceID: 9890}
+      Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10086}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10296}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10494}
+      Script: {instanceID: 10498}
     - Class: 114
-      Script: {instanceID: 10676}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 10906}
+      Script: {instanceID: 10704}
     - Class: 114
-      Script: {instanceID: 10968}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 10976}
+      Script: {instanceID: 10974}
     - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 10982}
     - Class: 114
-      Script: {instanceID: 11104}
+      Script: {instanceID: 11044}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11110}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 11396}
     - Class: 114
-      Script: {instanceID: 11524}
+      Script: {instanceID: 11408}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11530}
     - Class: 114
-      Script: {instanceID: 11600}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11606}
+    - Class: 114
+      Script: {instanceID: 11628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -276,27 +287,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9890}
+      Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10296}
+      Script: {instanceID: 10298}
     - Class: 114
-      Script: {instanceID: 10318}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10612}
+      Script: {instanceID: 10618}
     - Class: 114
-      Script: {instanceID: 10676}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 10906}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 11104}
+      Script: {instanceID: 11110}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11174}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11340}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,6 +323,83 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Village.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 596}
+    - Class: 114
+      Script: {instanceID: 9682}
+    - Class: 114
+      Script: {instanceID: 9714}
+    - Class: 114
+      Script: {instanceID: 9892}
+    - Class: 114
+      Script: {instanceID: 10298}
+    - Class: 114
+      Script: {instanceID: 10474}
+    - Class: 114
+      Script: {instanceID: 10518}
+    - Class: 114
+      Script: {instanceID: 10682}
+    - Class: 114
+      Script: {instanceID: 10704}
+    - Class: 114
+      Script: {instanceID: 10912}
+    - Class: 114
+      Script: {instanceID: 10974}
+    - Class: 114
+      Script: {instanceID: 11044}
+    - Class: 114
+      Script: {instanceID: 11110}
+    - Class: 114
+      Script: {instanceID: 11174}
+    - Class: 114
+      Script: {instanceID: 11552}
+    - Class: 114
+      Script: {instanceID: 59758}
+    - Class: 114
+      Script: {instanceID: 59766}
+    - Class: 114
+      Script: {instanceID: 118638}
+    - Class: 114
+      Script: {instanceID: 118642}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -502,7 +590,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 0c259b2d71c2f2a2f81c70b0564de837
+      Hash: 7152e8ed4c757f528398594f343fd973
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpecialRoomePlayerController
@@ -550,16 +638,16 @@ ScriptsOnlyBuild:
     className: DialogManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpecialGameMaster
-  - hash:
-      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 9aae3be299a484123c55eab5b603857b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GemHouse
   - hash:
       serializedVersion: 2
       Hash: 97ace6213ad0f149b0917a4c669c6ca3
@@ -578,6 +666,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d899d66c0f75f6fae17363702b82d984
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Village
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -854,9 +948,34 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: 9aae3be299a484123c55eab5b603857b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinHouse
+  - hash:
+      serializedVersion: 2
+      Hash: 2bfa9e0bd2642fd8aa9bc49ff129f4fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AncientHouse
+  - hash:
+      serializedVersion: 2
+      Hash: 1809925c5bd83058caf32c4e70c8ab77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Castel
+  - hash:
+      serializedVersion: 2
+      Hash: 2bfa9e0bd2642fd8aa9bc49ff129f4fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tavern
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartingMenu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/DayX.unity
-  playerPath: "C:/Users/\u0421\u0435\u043C\u0435\u043D/Desktop/Work/gameDev/GreedyCave0.4PC/GreedyCave.exe"
+  - Assets/Scenes/Village.unity
+  playerPath: "C:/Users/\u0421\u0435\u043C\u0435\u043D/Desktop/Work/gameDev/0.5/GreedyCave.exe"

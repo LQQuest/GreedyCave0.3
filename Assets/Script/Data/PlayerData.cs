@@ -14,6 +14,10 @@ public class PlayerData
     public int humans;
     public int food;
     public int scene;
+    public int levelAncientHouse;
+    public int levelGemHouse;
+    public int levelCoinHouse;
+    public int tavern;
 
     public PlayerData (GameMaster gm)
     {
@@ -26,5 +30,9 @@ public class PlayerData
         humans = GameMaster.humans;
         day = GameMaster.day;
         scene = GameMaster.scene;
+        levelAncientHouse = GameMaster.levelAncientHouse;
+        levelCoinHouse = GameMaster.levelCoinHouse;
+        levelGemHouse = GameMaster.levelGemHouse;
+        tavern = GameMaster.tavern;
     }
 }

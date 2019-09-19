@@ -30,6 +30,16 @@ public class StartGame : MonoBehaviour
         PauseMenu.paused = false;
         GameMaster.hp = 6;
         GameMaster.humans = 10;
+        GameMaster.day = 1;
+
+        PlayerController.nextScore = 0;
+        PlayerController.nextGem = 0;
+        PlayerController.nextCoin = 0;
+        PlayerController.nextFood = 0;
+        PlayerController.nextAncient = 0;
+
+        gm.SavePlayer();
+        
     }
     public void LoadGame()
     {

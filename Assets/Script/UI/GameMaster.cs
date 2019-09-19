@@ -21,6 +21,10 @@ public class GameMaster : MonoBehaviour
     public static int day = 1;
     public static int hp = 6;
     public static int scene;
+    public static int levelAncientHouse = 1;
+    public static int levelGemHouse = 1;
+    public static int levelCoinHouse = 1;
+    public static int tavern = 1;
 
     void Start()
     {
@@ -29,6 +33,7 @@ public class GameMaster : MonoBehaviour
         coins = PlayerController.nextCoin;
         food = PlayerController.nextFood;
         ancients = PlayerController.nextAncient;
+
 
     }
 
@@ -78,5 +83,9 @@ public class GameMaster : MonoBehaviour
         hp = data.hp;
         day = data.day;
         scene = data.scene;
+        levelGemHouse = data.levelGemHouse;
+        levelCoinHouse = data.levelCoinHouse;
+        levelAncientHouse = data.levelAncientHouse;
+        tavern = data.tavern;
     }
 }

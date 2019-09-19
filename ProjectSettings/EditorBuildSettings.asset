@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DayX.unity
     guid: 38a8c2a4b67fb0745afba08fb30cc4b5
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: fab3b2e0d729d8c438633cf16a7c4caf
   m_configObjects: {}

@@ -50,13 +50,13 @@ public class GiftPanel : MonoBehaviour
         if (GameMaster.humans>0)
         {
             
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
             PlayerController.gameOver = false;
             PlayerController.gameFinish = false;
             SpawnRooms.stopSpawnRoom = false;
             PauseMenu.paused = false;
             PauseMenu.restartTrigger = true;
-            GameMaster.day ++;
+            
             
         }else{
             GameOverPanel.SetActive(true);

@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 9a85c3d99c51acc44a365ab5781b0519
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8061919959038570487
+    second: river_0
+  - first:
+      213: -7820381653269175936
+    second: river_1
+  - first:
+      213: 5362339452504853210
+    second: river_2
+  - first:
+      213: 6217416108776383668
+    second: river_3
+  - first:
+      213: 472026509519052963
+    second: river_4
+  - first:
+      213: -7834085178266636943
+    second: river_5
+  - first:
+      213: 5123142708813332464
+    second: river_6
+  - first:
+      213: -4769419222813872430
+    second: river_7
+  - first:
+      213: -8192269561622197898
+    second: river_8
+  - first:
+      213: -2415339829604998164
+    second: river_9
+  - first:
+      213: 2368811949438177280
+    second: river_10
+  - first:
+      213: -4799849622893031077
+    second: river_11
+  - first:
+      213: 1596313706811327182
+    second: river_12
+  - first:
+      213: 337802424340693142
+    second: river_13
+  - first:
+      213: 4529545180402476897
+    second: river_14
+  - first:
+      213: 2881250418640147996
+    second: river_15
+  - first:
+      213: 8566812448797567615
+    second: river_16
+  - first:
+      213: 261408246672776042
+    second: river_18
+  - first:
+      213: 2489250917652707722
+    second: river_19
+  - first:
+      213: -190280434590890623
+    second: river_20
+  - first:
+      213: 8226374099523279153
+    second: river_21
+  - first:
+      213: -2473104046454032336
+    second: river_22
+  - first:
+      213: -7994108040359432537
+    second: river_28
+  - first:
+      213: -9206277160534643349
+    second: river_29
+  - first:
+      213: -4974505180605161351
+    second: river_32
+  - first:
+      213: 7394586475657116924
+    second: river_33
+  - first:
+      213: -7020940525789926008
+    second: river_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: river_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 13
+        height: 16
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd05fec7908915a4788918a9df60daf6
+      internalID: 8061919959038570487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 32
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a6a09642c45e458dc66ddc3e3bcd1
+      internalID: -7820381653269175936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb74e59eaaf3d940b9d9391bafd73a3
+      internalID: 5362339452504853210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da04d4d3d0b123448be983cef3f1198
+      internalID: 6217416108776383668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64dbdf1e5e15bc4bb90a6a00a97e422
+      internalID: 472026509519052963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7695b75050d747a604967897c03da
+      internalID: -7834085178266636943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd3723848ed0b64cb73883162a689d1
+      internalID: 5123142708813332464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 31
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3f4877965bd3e41934510ab351c1b4
+      internalID: -4769419222813872430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59651e004c72664fb857317dbb90fd5
+      internalID: -8192269561622197898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34a576b220c7ba4687d04e465b5d590
+      internalID: -2415339829604998164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6784b775a3d2ca478acb023ee19ce5d
+      internalID: 2368811949438177280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58490d594dbbf974197f5ba700b843ae
+      internalID: -4799849622893031077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e343e98d14be86c4db5ae9a836c9a827
+      internalID: 1596313706811327182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 15
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042a75180b17d8b438c56cf4795f3579
+      internalID: 337802424340693142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f7df6b1d821054fac4aebdf5f76e4a
+      internalID: 4529545180402476897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb24834f2fd40844957899e00281662
+      internalID: 2881250418640147996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de16c8d1e7570bd4f937e234ad632282
+      internalID: 8566812448797567615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 16
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea021eb9f2bd4c49ad605f0d825c8f7
+      internalID: 261408246672776042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de751d62639081c42bd5717ddbb39bfc
+      internalID: 2489250917652707722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7298e89b2dece468ee223a71795923
+      internalID: -190280434590890623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08db574fb0e41794584ed3f0e26ad3f0
+      internalID: 8226374099523279153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6084402e4abf9843876b5b6b7ec3c1d
+      internalID: -2473104046454032336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f682e6d398f7784cb5b8647be444b24
+      internalID: -7994108040359432537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c486aaba3c54244eb4732e3c816f753
+      internalID: -9206277160534643349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67b5e361c556d46858eabe255e9eea
+      internalID: -4974505180605161351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea58bcb1e504a51478fae59a369ef3d6
+      internalID: 7394586475657116924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: river_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 16
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e9919278f68924ba007a056c24154c
+      internalID: -7020940525789926008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
