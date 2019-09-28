@@ -30,9 +30,9 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Pause")){
-            paused = !paused;
-        }
+        // if(Input.GetButtonDown("Pause")){
+        //     paused = !paused;
+        // }
         if (paused){
             PauseUI.SetActive(true);
             Time.timeScale = 0;
@@ -89,14 +89,13 @@ public class PauseMenu : MonoBehaviour
     }
     public void MainMenu()
     {
-        
         SceneManager.LoadScene(0);
         restartTrigger = true;
+        
         
     }
     public void Quit()
     {
-        
         Application.Quit();
     }
 

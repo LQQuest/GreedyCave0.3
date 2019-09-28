@@ -7,12 +7,12 @@ using TMPro;
 public class Castel : MonoBehaviour
 {
     
-    public TextMeshProUGUI costGemText;
-    public TextMeshProUGUI costCoinText;
+    public TextMeshProUGUI costAncientText;
+    public TextMeshProUGUI costWeedText;
     public TextMeshProUGUI valueText;
 
-    private int costCoin = 50;
-    private int costGem = 10;
+    private int costWeed = 30;
+    private int costAncient = 2;
 
     private GameMaster gm;
 
@@ -29,20 +29,19 @@ public class Castel : MonoBehaviour
     void Update()
     {
         
-        costGemText.text = ("- " + costGem );
-        costCoinText.text = ("- " + costCoin );
-        valueText.text = ("+" + GameMaster.levelAncientHouse);
+        costAncientText.text = ("- " + costAncient );
+        costWeedText.text = ("- " + costWeed );
+        valueText.text = ("+1"  );
     }
     
 
     public void Confirm()
     {
-        if (gm.coins >= costCoin && gm.gems >= costGem)
+        if (GameMaster.weed >= costWeed && gm.ancients >= costAncient)
         {   
-            gm.coins -= costCoin;
-            gm.gems -= costGem;    
-            PlayerController.nextCoin -= costCoin;
-            PlayerController.nextGem -= costGem;
+            GameMaster.weed -= costWeed;
+            gm.ancients -= costAncient;    
+            PlayerController.nextAncient -= costAncient;
             
             GameMaster.humans ++;
         }

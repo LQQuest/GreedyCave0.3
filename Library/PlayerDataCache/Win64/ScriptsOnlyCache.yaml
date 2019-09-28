@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AncientHouse
     - Camera
     - Castel
     - CloseSpawn
@@ -9,6 +8,7 @@ ScriptsOnlyBuild:
     - DialogManager
     - EnemyController
     - FinishRoom
+    - FoodHouse
     - GameMaster
     - GemHouse
     - GiftPanel
@@ -103,25 +103,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10268}
+      Script: {instanceID: 10272}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 10308}
+      Script: {instanceID: 10312}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10368}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 10912}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11110}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,37 +202,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 10498}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 10704}
+      Script: {instanceID: 10710}
     - Class: 114
-      Script: {instanceID: 10912}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 10974}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 10982}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11110}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11404}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11416}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -289,25 +289,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 10322}
+      Script: {instanceID: 10326}
     - Class: 114
-      Script: {instanceID: 10618}
+      Script: {instanceID: 10624}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 10912}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 10926}
+      Script: {instanceID: 10932}
     - Class: 114
-      Script: {instanceID: 11110}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11340}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11348}
+    - Class: 114
+      Script: {instanceID: 11560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,35 +358,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10298}
+      Script: {instanceID: 10112}
     - Class: 114
-      Script: {instanceID: 10474}
+      Script: {instanceID: 10238}
     - Class: 114
-      Script: {instanceID: 10518}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 10682}
+      Script: {instanceID: 10436}
     - Class: 114
-      Script: {instanceID: 10704}
+      Script: {instanceID: 10480}
     - Class: 114
-      Script: {instanceID: 10912}
+      Script: {instanceID: 10524}
     - Class: 114
-      Script: {instanceID: 10974}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 10710}
     - Class: 114
-      Script: {instanceID: 11110}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 59758}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 59766}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 118638}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 118642}
+      Script: {instanceID: 11560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -566,6 +568,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 02f37c50771c8fd7c0d8c575eb3598b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Castel
+  - hash:
+      serializedVersion: 2
       Hash: 00274a21279f5cb831ce20f895049e38
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -590,7 +598,13 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 7152e8ed4c757f528398594f343fd973
+      Hash: 74fe2216227f685bb2da3509330d494d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tavern
+  - hash:
+      serializedVersion: 2
+      Hash: 1fd5548110527fd3aa3621a018f37100
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpecialRoomePlayerController
@@ -638,13 +652,19 @@ ScriptsOnlyBuild:
     className: DialogManager
   - hash:
       serializedVersion: 2
+      Hash: d85cd8bdef60bcaedf37d98c7305c23f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinHouse
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
   - hash:
       serializedVersion: 2
-      Hash: 9aae3be299a484123c55eab5b603857b
+      Hash: d85cd8bdef60bcaedf37d98c7305c23f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GemHouse
@@ -776,7 +796,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: d1818cc30ea59c6ba8a58b812f9060b1
+      Hash: cd107a70d2ac14b9810e1e7ca5987bb6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameMaster
@@ -798,6 +818,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5a78015bdaec26618ab38e5d5c6815e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FoodHouse
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -948,34 +974,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
-  - hash:
-      serializedVersion: 2
-      Hash: 9aae3be299a484123c55eab5b603857b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CoinHouse
-  - hash:
-      serializedVersion: 2
-      Hash: 2bfa9e0bd2642fd8aa9bc49ff129f4fc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AncientHouse
-  - hash:
-      serializedVersion: 2
-      Hash: 1809925c5bd83058caf32c4e70c8ab77
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Castel
-  - hash:
-      serializedVersion: 2
-      Hash: 2bfa9e0bd2642fd8aa9bc49ff129f4fc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tavern
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartingMenu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/DayX.unity
   - Assets/Scenes/Village.unity
-  playerPath: "C:/Users/\u0421\u0435\u043C\u0435\u043D/Desktop/Work/gameDev/0.5/GreedyCave.exe"
+  playerPath: "C:/Users/\u0421\u0435\u043C\u0435\u043D/Desktop/Work/gameDev/0.6/GreedyCave.exe"

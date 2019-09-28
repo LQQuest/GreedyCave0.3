@@ -8,16 +8,18 @@ public class Tavern : MonoBehaviour
 {
     public TextMeshProUGUI level_1_text;
     public TextMeshProUGUI level_2_text;
-    public TextMeshProUGUI costGemText;
-    public TextMeshProUGUI costCoinText;
+    public TextMeshProUGUI costAncientText;
+    // public TextMeshProUGUI costCoinText;
     public TextMeshProUGUI valueText;
     public TextMeshProUGUI lootText;
 
     private int costCoin;
-    private int costGem;
+    private int costAncient;
 
     public GameObject panel;
     private GameMaster gm;
+    public GameObject lvlUpPanel;
+    public GameObject lvlMaxPanel;
 
 
     
@@ -25,22 +27,47 @@ public class Tavern : MonoBehaviour
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-        lootText.text = ("+" + GameMaster.tavern);
-        gm.food += GameMaster.tavern;
-        PlayerController.nextFood += GameMaster.tavern;
+        lootText.text = ("+" + (GameMaster.tavern-1));
+        if (GameMaster.villageLoot == true)
+        {
+            gm.food += GameMaster.tavern;
+            PlayerController.nextFood += GameMaster.tavern - 1; 
+        }
+        
         gameObject.SetActive(false);
+        if (GameMaster.tavern == 4)
+        {
+            lvlMaxPanel.SetActive(true);
+        }
         
     }
 
     void Update()
     {
-        costCoin = GameMaster.tavern * 7 + (GameMaster.tavern-1)*2;
-        costGem = GameMaster.tavern + (GameMaster.tavern - 1);
         level_1_text.text = ("Level " + GameMaster.tavern);
         level_2_text.text = ("Level " + GameMaster.tavern + "->" + (GameMaster.tavern+1));
-        costGemText.text = ("- " + costGem );
-        costCoinText.text = ("- " + costCoin );
-        valueText.text = ("+" + GameMaster.tavern);
+        
+        valueText.text = ("+" + (GameMaster.tavern));
+
+        if (GameMaster.tavern == 1)
+        {
+            costAncient = 1;
+            
+            costAncientText.text = ("- " + costAncient);
+            
+        } else if (GameMaster.tavern == 2)
+        {
+            costAncient = 4;
+            
+            costAncientText.text = ("- " + costAncient);
+            
+        } else if (GameMaster.tavern == 3)
+        {
+            costAncient = 10;
+            
+            costAncientText.text = ("- " + costAncient );
+            
+        }
     }
     public void newPanel()
     {
@@ -49,14 +76,20 @@ public class Tavern : MonoBehaviour
 
     public void Confirm()
     {
-        if (gm.coins >= costCoin && gm.gems >= costGem)
+        if ( gm.ancients >= costAncient)
         {   
-            gm.coins -= costCoin;
-            gm.gems -= costGem;    
-            PlayerController.nextCoin -= costCoin;
-            PlayerController.nextGem -= costGem;
+            
+            gm.ancients -= costAncient;    
+            
+            PlayerController.nextAncient -= costAncient;
             panel.SetActive(false);
             GameMaster.tavern ++;
+            if (GameMaster.tavern == 4)
+            {
+                lvlMaxPanel.SetActive(true);
+            }else{
+                lvlUpPanel.SetActive(true);
+            }
         }
     }
     public void Back()

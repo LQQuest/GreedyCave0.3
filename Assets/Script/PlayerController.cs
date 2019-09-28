@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
         }
         if (other.gameObject.tag == "ancient")
         {
-            gm.score += 200;
+            gm.score += 500;
             gm.ancients ++;
             other.GetComponent<Animation>().Play();
             other.GetComponent<BoxCollider2D>().enabled = false;

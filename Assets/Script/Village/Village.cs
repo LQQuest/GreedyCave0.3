@@ -25,6 +25,8 @@ public class Village : MonoBehaviour
     {
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         message.SetActive(true);
+        GameMaster.scene = 3;
+        
     }
 
     void Update()
@@ -34,9 +36,11 @@ public class Village : MonoBehaviour
 
     public void MainMenu()
     {
-        gm.SavePlayer();
+        
+        GameMaster.villageLoot = false;
         SceneManager.LoadScene(0);
         PauseMenu.restartTrigger = true;
+        gm.SavePlayer();
     }
 
     public void PauseGame()
@@ -54,6 +58,7 @@ public class Village : MonoBehaviour
         gm.SavePlayer();
         GameMaster.day ++;
         SceneManager.LoadScene(1);
+        GameMaster.villageLoot = true;
     }
 
     public void GemButton()

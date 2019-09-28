@@ -10,6 +10,7 @@ public class GameMaster : MonoBehaviour
     public int ancients;
     public static int humans;
     public int food;
+    public static int weed;
     
     public TextMeshProUGUI pointsText;
     public TextMeshProUGUI gemsText;
@@ -18,13 +19,17 @@ public class GameMaster : MonoBehaviour
     public TextMeshProUGUI humanText;
     public TextMeshProUGUI dayText;
     public TextMeshProUGUI foodText;
+    public TextMeshProUGUI weedText;
     public static int day = 1;
     public static int hp = 6;
     public static int scene;
-    public static int levelAncientHouse = 1;
+    public static int levelFoodHouse = 1;
     public static int levelGemHouse = 1;
     public static int levelCoinHouse = 1;
     public static int tavern = 1;
+    public static int costGemHouse = 10;
+    public static int costCoinHouse = 2;
+    public static bool villageLoot = true;
 
     void Start()
     {
@@ -47,10 +52,13 @@ public class GameMaster : MonoBehaviour
         humanText.text = ("X " + humans);
         dayText.text = ("Day " + day);
         foodText.text = ("X " + food);
+        weedText.text = ("X " + weed);
 
-        if (Input.GetKeyDown(KeyCode.C) && hp < 6 && food > 0)
+        
+        if (Input.GetKeyDown(KeyCode.C) && hp < 6 && food > 0 && scene != 2)
         {
             food--;
+            PlayerController.nextFood--;
             hp++;
         }
 
@@ -83,9 +91,13 @@ public class GameMaster : MonoBehaviour
         hp = data.hp;
         day = data.day;
         scene = data.scene;
+        weed = data.weed;
         levelGemHouse = data.levelGemHouse;
         levelCoinHouse = data.levelCoinHouse;
-        levelAncientHouse = data.levelAncientHouse;
+        levelFoodHouse = data.levelFoodHouse;
         tavern = data.tavern;
+        costCoinHouse = data.costCoinHouse;
+        costGemHouse = data.costGemHouse;
+        villageLoot = data.villageLoot;
     }
 }

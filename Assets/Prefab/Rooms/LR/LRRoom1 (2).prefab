@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 5358032876415266928}
   - component: {fileID: 7677393510987581849}
   m_Layer: 0
-  m_Name: boxSpawn (1)
+  m_Name: lootSpawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1727,10 +1727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objects:
-  - {fileID: 595999091886314006, guid: 68670bd519d7a4f4a9cbddef59920f78, type: 3}
-  - {fileID: 595999091886314006, guid: 68670bd519d7a4f4a9cbddef59920f78, type: 3}
-  - {fileID: 595999091886314006, guid: 68670bd519d7a4f4a9cbddef59920f78, type: 3}
-  - {fileID: 5409950982375512699, guid: ce1ecb3c6756b0047a5e047f41c0d01d, type: 3}
+  - {fileID: 703593469087927295, guid: e92c2c4a9fc0ed845846a7d086b34d5a, type: 3}
 --- !u!1 &7751169114069098608
 GameObject:
   m_ObjectHideFlags: 0

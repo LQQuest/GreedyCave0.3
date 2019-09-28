@@ -23,7 +23,7 @@ public class StartGame : MonoBehaviour
     }
     public void StartGameFirst()
     {
-        SceneManager.LoadScene(1);
+        
         PlayerController.gameOver = false;
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
@@ -31,6 +31,13 @@ public class StartGame : MonoBehaviour
         GameMaster.hp = 6;
         GameMaster.humans = 10;
         GameMaster.day = 1;
+        GameMaster.weed = 0;
+        GameMaster.costGemHouse = 10;
+        GameMaster.costCoinHouse = 2;
+        GameMaster.levelFoodHouse = 1;
+        GameMaster.levelCoinHouse = 1;
+        GameMaster.levelGemHouse = 1;
+        GameMaster.tavern = 1;
 
         PlayerController.nextScore = 0;
         PlayerController.nextGem = 0;
@@ -38,17 +45,17 @@ public class StartGame : MonoBehaviour
         PlayerController.nextFood = 0;
         PlayerController.nextAncient = 0;
 
-        gm.SavePlayer();
-        
+        // gm.SavePlayer();
+        SceneManager.LoadScene(1);
     }
     public void LoadGame()
     {
-        SceneManager.LoadScene(1);
+        gm.LoadPlayer();
         PlayerController.gameOver = false;
         PlayerController.gameFinish = false;
         SpawnRooms.stopSpawnRoom = false;
         PauseMenu.paused = false;
-        gm.LoadPlayer();
+        SceneManager.LoadScene(GameMaster.scene);
     }
 
     public void TutorMenu()

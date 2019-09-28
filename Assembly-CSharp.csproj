@@ -75,9 +75,9 @@
      <Compile Include="Assets\Script\UI\PauseMenu.cs" />
      <Compile Include="Assets\Script\UI\PlayerHeatr.cs" />
      <Compile Include="Assets\Script\UI\StartGame.cs" />
-     <Compile Include="Assets\Script\Village\AncientHouse.cs" />
      <Compile Include="Assets\Script\Village\Castel.cs" />
      <Compile Include="Assets\Script\Village\CoinHouse.cs" />
+     <Compile Include="Assets\Script\Village\FoodHouse.cs" />
      <Compile Include="Assets\Script\Village\GemHouse.cs" />
      <Compile Include="Assets\Script\Village\Tavern.cs" />
      <Compile Include="Assets\Script\Village\Village.cs" />

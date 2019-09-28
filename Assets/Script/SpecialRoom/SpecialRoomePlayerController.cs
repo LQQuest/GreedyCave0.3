@@ -25,6 +25,10 @@ public class SpecialRoomePlayerController : MonoBehaviour
     public GameObject dm;
     public GameObject loadScreen;
 
+    public GameObject target;
+    private bool eventPosition;
+    private bool eventMove;
+
     void Start()
     {
         extraJumps = extraJumpsValue;
@@ -33,6 +37,9 @@ public class SpecialRoomePlayerController : MonoBehaviour
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         GameMaster.scene = 2;
         Destroy(loadScreen,2f);
+        gm.SavePlayer();
+        eventPosition = true;
+        eventMove = false;
 
     }
 
@@ -43,15 +50,19 @@ public class SpecialRoomePlayerController : MonoBehaviour
         anim.SetBool("Ground", isGrounded);
         anim.SetFloat("vSpeed", rb.velocity.y);
 
-        moveInput = Input.GetAxis("Horizontal");
-
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if (eventMove == true)
+        {
+            moveInput = Input.GetAxis("Horizontal");
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         
-        if (facingRight == false && moveInput > 0){
-            Flip();
-        } else if(facingRight == true && moveInput < 0){
-            Flip();
+            if (facingRight == false && moveInput > 0){
+                Flip();
+            } else if(facingRight == true && moveInput < 0){
+                Flip();
+            }
         }
+        
+        
         
         if(!isGrounded)
             return;
@@ -68,7 +79,20 @@ public class SpecialRoomePlayerController : MonoBehaviour
     
 
     void Update()
-    {
+    {   
+        if (transform.position != target.transform.position && eventPosition == true)
+        {
+            float step = 0.7f * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, step);
+            anim.SetBool("isRunning", true); 
+            
+        }else if (transform.position == target.transform.position)
+        {
+            eventPosition = false;
+            eventMove = true;
+            
+        }
+        
         if(isGrounded == true){
             extraJumps = extraJumpsValue;
         }

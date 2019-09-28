@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class GiftPanel : MonoBehaviour
 {
 
@@ -36,6 +37,7 @@ public class GiftPanel : MonoBehaviour
         countGods[2] = 0;
         score_need = 0;
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+        
     }
 
     void Update()
@@ -78,24 +80,24 @@ public class GiftPanel : MonoBehaviour
 
         score_need += coins*20;
         score_need += gems*100;
-        score_need += ancients*200;
+        score_need += ancients*500;
 
-        if (score_need >= (countGods[DialogManager.GodName]* 200 - 20) && score_need <= (countGods[DialogManager.GodName]* 200 + 20))
+        if (score_need >= (300*Mathf.Pow(1.05f, (GameMaster.day-2)) - 0.07*(300*Mathf.Pow(1.05f, (GameMaster.day-2) ))) && score_need <= (300*Mathf.Pow(1.05f, (GameMaster.day-2)) + 0.07*(300*Mathf.Pow(1.05f, (GameMaster.day-2)))))
         {
             // Debug.Log("Gods satisfied ");
             PlayerController.nextScore += countGods[DialogManager.GodName] * 1000;
             GodsMassage  = 1;
-        } else if (score_need < (countGods[DialogManager.GodName]* 200 - 20))
+        } else if (score_need < (300*Mathf.Pow(1.05f, (GameMaster.day-2)) - 0.07*(300*Mathf.Pow(1.05f, (GameMaster.day-2)))))
         {
             // Debug.Log("Gods sad ");
-            GameMaster.humans  -= countGods[DialogManager.GodName];
+            GameMaster.humans  -- ;
             GodsMassage = 2;
         } else  
         {
             // Debug.Log("Gods happy");
             GodsMassage = 3;
             PlayerController.nextScore += countGods[DialogManager.GodName] * 1200;
-            countGods[DialogManager.GodName] -- ;
+            
         }
 
 
